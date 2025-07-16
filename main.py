@@ -11,5 +11,5 @@ class MyPlugin(Star):
     @filter.command("pcpsearch")
     async def pcpsearch(self, event: AstrMessageEvent, operation: str = ""):
         '''查询化合物信息，支持CAS，英文名称''' # 这是 handler 的描述，将会被解析方便用户了解插件内容。建议填写。
-        c=get_compounds(str,'name')
+        c=get_compounds(operation,'name')
         yield event.plain_result("化合物名称及别名：",c.synonyms)
