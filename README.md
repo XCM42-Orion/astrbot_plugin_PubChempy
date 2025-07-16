@@ -1,9 +1,7 @@
-# helloworld
+# astrbot_plugin_Pubchempy
 
-AstrBot 插件模板
+连接PubChem API进行化学物质查询。
 
-A template plugin for AstrBot plugin feature
 
-# 支持
 
-[帮助文档](https://astrbot.app)
+
